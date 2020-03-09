@@ -14,6 +14,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+## Deploy to Github Pages
+
+Run `ng deploy --branch=master` to deploy the angular application to the master branch for user pages. Just run `ng deploy` to deploy to the gh-pages branch, which is the default branch for project pages.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
