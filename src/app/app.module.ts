@@ -9,8 +9,6 @@ import { WorkComponent } from './work/work.component';
 
 import {RouterModule} from '@angular/router';
 
-
-
 @NgModule({
   declarations: [
     AppComponent,
