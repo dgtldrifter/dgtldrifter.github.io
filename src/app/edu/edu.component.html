@@ -1,3 +1,14 @@
 <body>
-  <p>This is the education directory...</p>
+  <div class="school" *ngFor="let school of schools; let i = index">
+    <div class="title" >
+      <h3>{{ school.school }}</h3>
+      <h5>{{ school.degree }}</h5>
+    </div>
+    <div class="infoBody">
+      <h6>Courses Taken:</h6>
+      <ul>
+        <li *ngFor="let course of school.courses; let j = index">{{ course }}</li>
+      </ul>
+    </div>
+  </div>
 </body>

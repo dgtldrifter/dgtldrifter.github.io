@@ -4,6 +4,7 @@
   padding: 5%;
   display: flex;
   justify-content: flex-end;
+  text-align: right;
 }
 
 .tw{}

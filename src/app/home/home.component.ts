@@ -22,19 +22,19 @@ export class HomeComponent implements OnInit {
       .type('Hello, I\'m Micheal.')
       .rest(500)
       .clear()
-      .type('I\'m a')
+      .type('I\'m a ')
       .removeCursor()
       .then(writer2.start.bind(writer2))
       .start();
 
     writer2
-      .type(' student.')
+      .type('student.')
       .rest(500)
       .clear()
-      .type(' full-stack developer.')
+      .type('full-stack developer.')
       .rest(500)
       .clear()
-      .type(' web designer.')
+      .type('web designer.')
       .rest(500)
       .clear()
       .removeCursor()
