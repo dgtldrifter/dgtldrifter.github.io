@@ -97,6 +97,10 @@ h2{
   font-size: 2em;
 }
 
+a{
+  font-size: 1.25em;
+}
+
 a:link {
   color: #3fd620;
   text-decoration: none ;
