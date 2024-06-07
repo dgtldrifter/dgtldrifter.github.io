@@ -121,7 +121,7 @@ a:active {
   text-decoration: none;
 }
 
-#mainContent{
+.mainContent{
   height: 200px;
   width: 400px;
 
