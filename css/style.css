@@ -137,6 +137,10 @@ a:active {
   font-family: "Perfect DOS VGA 437", sans-serif, serif;
 }
 
+.error {
+  color: white;
+}
+
 
 /* ==========================================================================
    Helper classes
